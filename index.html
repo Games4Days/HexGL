@@ -1,22 +1,8 @@
-<h1>HexGL</h1>
-<h5>Click below to play HexGL</h5>
 <html>
-<head>
-</head>
-<body>
-<button onclick="openGame()">Play</button>
-<script>
-function openGame() {
-var win = window.open()
-var url = "https://pablocp.github.io/HexGL/"
-var iframe = win.document.createElement('iframe')
-iframe.style.width = "100%";
-iframe.style.height = "100%";
-iframe.style.border = "nothing";
-iframe.src = url
-win.document.body.appendChild(iframe)
-win.document.body.style.margin='0'
-}
-</script>
+<head></head>
+<body style="margin: 0px;">
+<iframe src="https://pablocp.github.io/HexGL/" 
+style="width: 100%; height: 100%;">
+</iframe>
 </body>
 </html>
